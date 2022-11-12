@@ -6,7 +6,5 @@
 			<option *ngFor="let font of fonts" [value]="font">{{font}}</option>
 		</select>
 	</div>
-	<p [ngStyle]="{ color: color, fontSize: fontSize + 'px', fontFamily: fontFamily }">
-		Test paragraph!
-	</p>
+	<textarea class="form-control" [ngStyle]="{ color: color, fontSize: fontSize + 'px', fontFamily: fontFamily }">Test Paragraph!</textarea>
 </div>

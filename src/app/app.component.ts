@@ -18,7 +18,7 @@ export class AppComponent {
     'Brush Script MT',
     'Luminari',
   ];
-  color: string = 'white';
+  color: string = 'black';
   fontSize: number = 30;
   fontFamily: string = 'Arial';
 }
